@@ -48,7 +48,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
     });
   }
 
-  void _setImageType(ImageType imageType) {
+  void _setImageType(ImageType imageType) { //使ってない
     setState(() {
       selectedImageType = imageType;
     });
